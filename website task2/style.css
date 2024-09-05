@@ -1,0 +1,97 @@
+#outer{
+    min-height: 800px;
+    width: 1200px;
+    background-color: red;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+.a{
+    height: 50px;
+    width: 1200px;
+    background-color: orange;
+    font-size: 25px;
+   line-height: 50px;
+   padding-left: 30px;
+    box-sizing: border-box;
+}
+.b{
+    height: 50px;
+    width: 1200px;
+    background-color: green;
+}
+.b1{
+    height: 50px;
+    width: 200px;
+    background-color:rgb(7, 195, 7);
+    float: left;
+    font-size: 40px;
+    padding-left: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+}
+.b2{
+    height: 50px;
+    width: 1000px;
+    background-color:rgb(7, 195, 7);
+    float: left;
+}
+.b2 ul{
+    margin: 20px;
+    margin-left: 300px;
+    list-style: none;
+    display: flex;
+}
+.b2 ul li{
+    line-height: 10px;
+}
+.b2 li{
+    padding-left: 35px;
+    box-sizing: border-box;
+}.b2 a{
+    color:yellow;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+	padding:14px;
+	box-sizing:border-box;
+    transition: 2s;
+}
+a:hover{
+    color: aqua;
+    background-color:darkorange;
+}
+#slider {
+    height: 800px;
+    width: 1200px;
+    background: url("logo1.jpg");
+    background-size: cover;
+    padding-left: 50px;
+    box-sizing: border-box;
+    padding-top: 350px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+#section{
+    height: 150px;
+    width: 1200px;
+    padding-left:50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: aqua;
+}
+.btn{
+    background-color: white;
+    height: 50px;
+    width:120px;
+    color: red;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: yellowgreen;
+}
+
